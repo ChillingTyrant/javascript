@@ -1,0 +1,16 @@
+const para= document.createElement("p");
+para.textContent="Hey I'm red.";
+para.style.color="red";
+const bH3= document.createElement("h3");
+bH3.style.color="blue";
+bH3.textContent="im blue h3";
+const divv=document.createElement("div");
+divv.style.backgroundColor="pink";
+divv.style.borderColor="black";
+const h1= document.createElement("h1");
+h1.textContent="im a div!";
+const p= document.createElement("p");
+p.textContent="me too.";
+divv.appendChild(p);
+divv.appendChild(h1);
+document.body.appendChild(divv);
